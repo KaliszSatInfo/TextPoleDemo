@@ -16,7 +16,6 @@ public class RandomForm extends JFrame{
             txtArea.setEditable(false);
         });
         kopirujButton.addActionListener(e-> {
-                txtField.getText();
                 txtArea.append((txtField.getText() + "\n"));
         });
     }
